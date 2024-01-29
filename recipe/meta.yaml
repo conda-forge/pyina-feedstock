@@ -19,18 +19,16 @@ requirements:
     - python
     - setuptools >=42
     - cython >=0.29.30
-    - numpy
-    - dill
-    - pathos
-    - pox
-    - mpi4py
     - pip
   run:
     - python
+    - numpy
+    - dill >=0.3.8
+    - pox >=0.3.4
+    - pathos >=0.3.2
+    - mystic >=0.4.2
+    - cython >=0.29.30
     - numpy >=1.0
-    - dill >=0.3.7
-    - pox >=0.3.3
-    - pathos >=0.3.1
     - mpi4py >=1.3,!=3.0.2
 
 test:
