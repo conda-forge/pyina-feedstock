@@ -1,5 +1,5 @@
 {% set name = "pyina" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyina-{{ version }}.tar.gz
-  sha256: 18c58c0fb008558d35a0c5769fc68982a9e9541effa1cc4c38212fc0bab9247c
+  sha256: 803a7cec72265419794ef44723b36bbb49cacbe97c48494b75d7f05ca743beea
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
