@@ -23,9 +23,9 @@ requirements:
   run:
     - python >={{ python_min }}
     - numpy
-    - dill >=0.3.9
-    - pox >=0.3.5
-    - pathos >=0.3.3
+    - dill >=0.4.0
+    - pox >=0.3.6
+    - pathos >=0.3.4
     - mystic >=0.4.2
     - cython >=0.29.30
     - numpy >=1.0
