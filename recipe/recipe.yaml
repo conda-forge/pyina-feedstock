@@ -26,10 +26,10 @@ requirements:
   run:
     - python >=${{ python_min }}
     - numpy
-    - dill >=0.4.0
-    - pox >=0.3.6
-    - pathos >=0.3.4
-    - mystic >=0.4.2
+    - dill >=0.4.1
+    - pox >=0.3.7
+    - pathos >=0.3.5
+    - mystic >=0.4.5
     - cython >=0.29.30
     - numpy >=1.0
     - mpi4py >=1.3,!=3.0.2
