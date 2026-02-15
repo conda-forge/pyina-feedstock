@@ -13,7 +13,7 @@ source:
   sha256: 803a7cec72265419794ef44723b36bbb49cacbe97c48494b75d7f05ca743beea
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
@@ -38,7 +38,7 @@ tests:
   - requirements:
       run:
         - pip
-        - python ${{ python_min }}
+        - python ${{ python_min }}.*
     script:
       - if: unix
         then: export OMPI_MCA_plm_rsh_agent=sh
